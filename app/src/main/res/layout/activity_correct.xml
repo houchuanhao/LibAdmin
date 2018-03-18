@@ -7,17 +7,17 @@
     android:orientation="vertical"
     tools:context="com.libadmin.InspectionActivity">
 
-    <Button
+    <Utils.SubmitButton
         android:id="@+id/inspection_btn1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:text="查看乱书位置" />
+        app:buttonText="查看乱书"/>
 
-    <Button
+    <Utils.SubmitButton
         android:id="@+id/inspection_btn2"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:text="开始归位" />
+        app:buttonText="开始定位" />
 </LinearLayout>

@@ -7,17 +7,18 @@
     android:orientation="vertical"
     tools:context="com.libadmin.InspectionActivity">
 
-    <Button
+    <Utils.SubmitButton
         android:id="@+id/inspection_btn1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:text="立刻巡检" />
+        app:buttonText="立刻巡检"
+        />
 
-    <Button
+    <Utils.SubmitButton
         android:id="@+id/inspection_btn2"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        android:text="巡检定时" />
+        app:buttonText="巡检定时" />
 </LinearLayout>
